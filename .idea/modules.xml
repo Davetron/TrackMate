@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TrackMate.iml" filepath="$PROJECT_DIR$/TrackMate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrackMate/TrackMate-TrackMate.iml" filepath="$PROJECT_DIR$/TrackMate/TrackMate-TrackMate.iml" />
+    </modules>
+  </component>
+</project>
+
