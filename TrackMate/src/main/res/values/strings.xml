@@ -6,5 +6,12 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="marks">On your marks</string>
+    <string name="set">Set</string>
+    <string name="go">Go!</string>
+    <string name="marksValue">5</string>
+    <string name="setValue">5</string>
+    <string name="goValue">5</string>
 
 </resources>

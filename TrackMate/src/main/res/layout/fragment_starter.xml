@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.github.davetron.trackmate.StarterFragment">
+
+    <!-- Marks delay -->
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marksSeekBar"
+        android:progress="5"
+        android:max="60"
+        android:padding="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/marksValue"
+        android:text="@string/marksValue"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/marksView"
+        android:text="@string/marks"/>
+
+    <!-- Set delay -->
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setSeekBar"
+        android:progress="5"
+        android:max="60"
+        android:padding="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/setValue"
+        android:text="@string/setValue"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/setView"
+        android:text="@string/set"/>
+
+    <!-- GO delay -->
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goSeekBar"
+        android:progress="5"
+        android:max="60"
+        android:padding="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goValue"
+        android:text="@string/goValue"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/go"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false"
+        android:padding="10dp"/>
+
+
+</LinearLayout>
